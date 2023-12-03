@@ -1,4 +1,5 @@
 import "./App.css";
+import FAQ from "./components/FAQ";
 import Features from "./components/Features";
 
 import Hero from "./components/Hero";
@@ -15,6 +16,7 @@ function App() {
       <Features/>
       <Scrollreview/>
       <Pricing/>
+      <FAQ/>
     </div>
   );
 }
