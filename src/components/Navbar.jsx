@@ -38,7 +38,7 @@ const Navbar = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <p className="text-base font-semibold text-black font-signature ml-1">
+          <p className="text-sm font-semibold text-black font-signature ml-1">
             Milton
           </p>
         </div>
