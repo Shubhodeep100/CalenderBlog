@@ -16,9 +16,11 @@ const Hero = () => {
         <div className="text-7xl text-zinc-800 font-extrabold phone leading-tight">
           Your new favorite calender 🗓️ app
         </div>
-        <div className=" max-w-xl  text-xl font-semibold text-slate-500 px-2">
-          Here you should explain how cool your app is. Remember, focus on the
-          benefits for your users, not on the features.
+        <div className="flex justify-center">
+          <div className="flex max-w-lg text-lg font-medium text-slate-500 px-2 text-center">
+            Here you should explain how cool your app is. Remember, focus on the
+            benefits for your users, not on the features.
+          </div>
         </div>
         <div>
           <button className="font-semibold text-white bg-zinc-800 p-3 px-6 rounded-lg relative cursor-pointer overflow-hidden transform transition duration-500 hover:scale-110">

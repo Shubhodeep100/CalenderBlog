@@ -1,4 +1,5 @@
 import React from "react";
+import Priceswitch from "./Priceswitch";
 
 const Pricing = () => {
   return (
@@ -19,6 +20,8 @@ const Pricing = () => {
             </p>
           </div>
         </div>
+
+        <Priceswitch />
 
         <div className="flex flex-row gap-4">
           {/* card1 */}

@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full py-4 px-4 bg-amber-50 text-white z-30 border-b">
       <div className="flex fixed-container justify-between items-center">
-        <div className="flex  cursor-pointer">
+        <div className="flex cursor-pointer">
           <div className="w-7 h-7 rounded-md overflow-hidden">
             <img
               src={p1}
@@ -46,7 +46,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize text-md font-semibold text-gray-500 hover:text-black hover:underline"
+              className="px-4 cursor-pointer capitalize font-semibold text-gray-500 hover:text-black hover:underline"
             >
               <Link to={link} smooth duration={600}>
                 {link}
