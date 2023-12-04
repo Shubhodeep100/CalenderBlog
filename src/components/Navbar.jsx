@@ -28,7 +28,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="fixed w-full py-4 px-4 bg-amber-50 text-white z-30 border-b">
+    <div className="fixed w-full py-4 px-4 text-white z-30 border-b nav">
       <div className="flex fixed-container justify-between items-center">
         <div className="flex cursor-pointer">
           <div className="w-7 h-7 rounded-md overflow-hidden">

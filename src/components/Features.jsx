@@ -10,7 +10,7 @@ const Features = () => {
     <div className="fixed-container">
       <section
         Name="Features"
-        className="flex flex-col mt-10 heroAllignment gap-24"
+        className="flex flex-col mt-10 hero-alignment gap-24"
       >
         {/* Discover block */}
 
@@ -28,7 +28,7 @@ const Features = () => {
         </div>
 
         {/* Sceduling & calender block starts */}
-        <div className="flex flex-row gap-3">
+        <div className="flex flex-row gap-3 md:order-first">
           {/* 1 text block */}
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-16 max-w-lg">

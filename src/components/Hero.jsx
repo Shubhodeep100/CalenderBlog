@@ -6,7 +6,7 @@ import p4 from "../assets/person4.png";
 import p5 from "../assets/person5.png";
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen mt-10 heroAllignment gap-2">
+    <div className="flex flex-col justify-center items-center h-screen mt-10 hero-alignment gap-2">
       <span className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 flex justify-center items-center border-none">
         <p className="text-black font-semibold text-md">
           An other way to manage time

@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .heroAllignment {
+  .hero-alignment {
     margin-top: 5rem;
     right: 0;
     left: 0;
@@ -22,6 +22,8 @@
     max-width: 1000px;
     margin: auto;
     width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 

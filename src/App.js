@@ -11,16 +11,19 @@ import Scrollreview from "./components/Scrollreview";
 import Superpage from "./components/Superpage";
 function App() {
   return (
-    <div className="App space-y-20">
-      <Navbar />
-      <Hero />
-      <Superpage />
-      <Features/>
-      <Scrollreview/>
-      <Pricing/>
-      <FAQ/>
-      <Ready/>
-      <Footer/>
+    <div className="App">
+      <div className="space-y-20">
+        <Navbar />
+        <Hero />
+        <Superpage />
+        <Features />
+        <Scrollreview />
+        <Pricing />
+        <FAQ />
+        <Ready />
+      </div>
+
+      <Footer />
     </div>
   );
 }

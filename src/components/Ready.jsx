@@ -2,7 +2,7 @@ import React from "react";
 import girl5 from "../assets/girl5.jpg"
 const Ready = () => {
   return (
-    <div className="fixed-ques h-screen">
+    <div className="fixed-ques">
       <section className="flex flex-col mt-10 heroAllignment gap-24">
         <div className="flex flex-col items-center gap-6">
           <div className="bg-slate-100 rounded-l-full rounded-r-full p-2 px-5 flex justify-center items-center border-none">
