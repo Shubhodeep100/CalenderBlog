@@ -6,11 +6,11 @@ import tw from "../assets/twitter.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-slate-100 text-white w-full py-20">
-        <div className=" flex flex-wrap">
-          {/* Company */}
-          <div className="flex flex-row fixed-container mb-6">
-            <div className="footer-col w-full md:w-1/4 mb-10 md:mb-0">
+      <footer className="bg-slate-100 w-full  py-16">
+        <div className=" flex fixed-container centering phone">
+          {/* Milton */}
+          <div className="flex justify-between flex-row wrap mb-6">
+            <div className="footer-col mb-10 md:mb-0">
               <div className="flex flex-row">
                 <div className="w-7 h-7 rounded-md overflow-hidden mr-2">
                   <img
@@ -21,14 +21,17 @@ const Footer = () => {
                 </div>
                 <div className="text-xl font-bold mb-5 text-black">Milton</div>
               </div>
-              <div className="flex flex-col text-sm gap-5">
-                <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer pr-7">
-                  A short text explanation why my startup is cool
-                </p>
+              <div className="flex flex-col gap-5">
+                <div className="flex flex-col text-base gap-5">
+                  <p className="text-gray-700 hover:text-gray-500  hover:underline cursor-pointer ">
+                    A short text explanation
+                    <p>why my startup is so cool</p>
+                  </p>
 
-                <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer ">
-                  © My super start-up
-                </p>
+                  <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer ">
+                    © My super start-up
+                  </p>
+                </div>
 
                 <div className="flex flex-row gap-3">
                   <div className="w-9 h-9 rounded-md overflow-hidden hover:shadow-lg cursor-pointer">
@@ -58,7 +61,7 @@ const Footer = () => {
             </div>
 
             {/* Products */}
-            <div className="footer-col w-full md:w-1/4 mb-10 md:mb-0">
+            <div className="footer-col mb-10 md:mb-0">
               <div className="text-xl font-bold mb-5 text-black">Products</div>
               <div className="flex flex-col text-sm gap-4">
                 <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer ">
@@ -80,7 +83,7 @@ const Footer = () => {
             </div>
 
             {/* Resources */}
-            <div className="footer-col w-full md:w-1/4 mb-10 md:mb-0">
+            <div className="footer-col mb-10 md:mb-0">
               <div className="text-xl font-bold mb-5 text-black">Resources</div>
               <div className="flex flex-col text-sm gap-4">
                 <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer ">
@@ -102,7 +105,7 @@ const Footer = () => {
             </div>
 
             {/* Others */}
-            <div className="footer-col w-full md:w-1/4 mb-10 md:mb-0">
+            <div className="footer-col mb-10 md:mb-0">
               <div className="text-xl font-bold mb-5 text-black">Others</div>
               <div className="flex flex-col text-sm gap-4">
                 <p className="text-gray-700 hover:text-gray-500 hover:underline cursor-pointer ">

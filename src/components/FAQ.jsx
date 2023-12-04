@@ -14,22 +14,22 @@ const FAQ = () => {
       >
         <div className="flex flex-col justify-start items-center gap-4">
           <div className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 px-4 flex justify-center items-center border-none">
-            <p className="text-black font-semibold text-md">
+            <p className="text-black font-semibold text-md light-ballon">
               Relevant stuff, bla bla 📣
             </p>
           </div>
           <div>
-            <p className="text-5xl font-extrabold text-zinc-800">
+            <p className="text-5xl font-extrabold text-zinc-800 heading-alignment">
               Frequently asked questions
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col gap-9 h-screen">
-          <Dropques/>
-          <Dropq2/>
-          <Dropq3/>
-          <Dropq4/>
+        <div className="flex flex-col gap-9 fixed-contphone">
+          <Dropques />
+          <Dropq2 />
+          <Dropq3 />
+          <Dropq4 />
         </div>
       </section>
     </div>

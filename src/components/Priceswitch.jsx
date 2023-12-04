@@ -11,7 +11,7 @@ const Priceswitch = () => {
         class="input-toggle"
       />
 
-      <div class="checkbox__container">
+      <div class="checkbox__container ">
         <label for="input-toggle" class="label-for-toggle">
           <span class="ball arrow">
             <FaArrowCircleRight className="text-4xl text-white" />

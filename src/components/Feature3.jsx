@@ -3,27 +3,26 @@ import girl3 from "../assets/girl3.jpg";
 const Feature3 = () => {
   return (
     <section className="flex flex-col mt-10 heroAllignment gap-24">
-
       {/* Sceduling & calender block starts */}
-      <div className="flex flex-row gap-3">
+      <div className="flex flex-row flex-wrap">
         {/* 1 text block */}
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 fixed-contphone">
           <div className="flex flex-col gap-16 max-w-lg">
             <div className="flex flex-col justify-start items-start  gap-4">
               <div className="bg-cyan-100 border border-gray rounded-l-full rounded-r-full py-1.5 px-6 flex justify-center items-center border-none">
-                <p className="text-black font-semibold text-md">
+                <p className="text-black font-semibold light-ballon">
                   Seamless Sceduling
                 </p>
               </div>
               <div className="max-w-2xl antialiased">
-                <p className="text-4xl font-extrabold text-zinc-800">
+                <p className="text-4xl font-extrabold text-zinc-800 semi-heading">
                   Focus on what matters most for you
                 </p>
               </div>
             </div>
             <div className="max-w-lg space-y-4">
               <div>
-                <p className="text-slate-500 text-lg font-medium">
+                <p className="text-slate-500 text-lg font-medium light-para">
                   Effortlessly plan your day with our intuitive drag-and-drop
                   interface. Sync with multiple calendar platforms, import
                   events from emails, and add participants with just a few
@@ -44,7 +43,7 @@ const Feature3 = () => {
             </div>
             <div className="flex">
               <div className="flex-start max-w-xs  bg-zinc-800 space-y-2 rounded-t-2xl rounded-br-2xl rounded-bl p-4 mb-3">
-                <p className="text-bold text-white">
+                <p className="text-bold text-white featurecloud">
                   I've tried a lot of calendar apps, but this one is by far the
                   best! It's so intuitive and customizable, and it has all the
                   features I need.
@@ -56,7 +55,7 @@ const Feature3 = () => {
         </div>
 
         {/* 2  image calender*/}
-        <div className="w-6/12">
+        <div className="w-6/12 fixed-contphone">
           <img
             src="https://framerusercontent.com/images/xjG69OjCFt0Z3YQvNa3HNBBP5G0.png?scale-down-to=1024"
             alt="Calender"

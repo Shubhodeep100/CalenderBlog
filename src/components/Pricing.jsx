@@ -4,18 +4,15 @@ import Priceswitch from "./Priceswitch";
 const Pricing = () => {
   return (
     <div className="fixed-container">
-      <section
-        Name="Pricing"
-        className="flex flex-col mt-10 heroAllignment gap-24"
-      >
+      <section Name="Pricing" className="flex flex-col mt-10 gap-24">
         <div className="flex flex-col justify-start items-center gap-4">
           <div className="bg-slate-200 border border-gray rounded-l-full rounded-r-full p-2 px-4 flex justify-center items-center border-none">
-            <p className="text-black font-semibold text-md">
+            <p className="text-black font-semibold text-md light-ballon">
               Pricing and plans 💰
             </p>
           </div>
           <div>
-            <p className="text-5xl font-extrabold text-zinc-800">
+            <p className="text-5xl font-extrabold text-zinc-800 heading-alignment">
               Find the best plan for your needs
             </p>
           </div>
@@ -28,14 +25,16 @@ const Pricing = () => {
             <p className="text-white font-semibold text-md">Best deal 🔥</p>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-row gap-4">
+        <div className="flex flex-col fixed-contphone centeringbox">
+          <div className="flex flex-row gap-4 wrap ">
             {/* card1 */}
-            <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
+            <div className="max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
               <div className="flex flex-col gap-3">
                 <div className="flex">
                   <div className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 px-7 flex justify-center items-center border-none">
-                    <p className="text-black font-semibold text-md">Free</p>
+                    <p className="light-ballon text-black font-semibold text-md">
+                      Free
+                    </p>
                   </div>
                 </div>
                 <p className="mb-4 text-sm font-medium text-slate-600">
@@ -62,14 +61,14 @@ const Pricing = () => {
                   <button className="font-semibold text-white bg-zinc-800 p-3 px-5 rounded-xl relative cursor-pointer overflow-hidden transform transition duration-500 hover:scale-110">
                     <span className="text-md px-1">Get started</span>
                   </button>
-                  <p className="text-center">No credit card needed</p>
+                  <p className="light-para text-center">No credit card needed</p>
                 </div>
               </div>
 
               <div className="flex flex-col mt-4">
                 <p className="text-sm">What's included:</p>
-                <ul className="space-y-5 my-7">
-                  <li className="flex items-center">
+                <ul className="space-y-5 my-7 ">
+                  <li className="flex items-center ">
                     <svg
                       className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500"
                       aria-hidden="true"
@@ -79,7 +78,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A cool feature
                     </span>
                   </li>
@@ -93,7 +92,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A basic feature
                     </span>
                   </li>
@@ -107,7 +106,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A top feature with limitation
                     </span>
                   </li>
@@ -121,7 +120,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       An incredible feature so useful
                     </span>
                   </li>
@@ -135,7 +134,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A top feature
                     </span>
                   </li>
@@ -144,11 +143,13 @@ const Pricing = () => {
             </div>
 
             {/* card 2 */}
-            <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
+            <div className=" max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
               <div className="flex flex-col gap-3">
                 <div className="flex">
                   <div className="bg-orange-100 border border-gray rounded-l-full rounded-r-full p-2 px-7 flex justify-center items-center border-none">
-                    <p className="text-black font-semibold text-md">Starter</p>
+                    <p className="light-ballon text-black font-semibold text-md">
+                      Starter
+                    </p>
                   </div>
                 </div>
                 <p className="mb-4 text-sm font-medium text-slate-600">
@@ -175,7 +176,9 @@ const Pricing = () => {
                   <button className="font-semibold text-white bg-zinc-800 p-3 px-5 rounded-xl relative cursor-pointer overflow-hidden transform transition duration-500 hover:scale-110">
                     <span className="text-md px-1">Get started</span>
                   </button>
-                  <p className="text-center">No credit card needed</p>
+                  <p className="light-para text-center">
+                    No credit card needed
+                  </p>
                 </div>
               </div>
 
@@ -192,7 +195,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A cool feature
                     </span>
                   </li>
@@ -206,7 +209,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A basic feature
                     </span>
                   </li>
@@ -220,7 +223,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A top feature with limitation
                     </span>
                   </li>
@@ -234,7 +237,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       An incredible feature so useful
                     </span>
                   </li>
@@ -248,7 +251,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600 ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600 ms-3">
                       A top feature
                     </span>
                   </li>
@@ -256,11 +259,13 @@ const Pricing = () => {
               </div>
             </div>
             {/* card 3 */}
-            <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
+            <div className=" max-w-sm  bg-white border border-gray-200 rounded-2xl shadow p-6">
               <div className="flex flex-col gap-3">
                 <div className="flex">
                   <div className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 px-7 flex justify-center items-center border-none">
-                    <p className="text-black font-semibold text-md">Free</p>
+                    <p className="light-ballon text-black font-semibold text-md">
+                      Free
+                    </p>
                   </div>
                 </div>
                 <p className="mb-4 text-sm font-medium text-slate-600">
@@ -287,7 +292,9 @@ const Pricing = () => {
                   <button className="font-semibold text-white bg-zinc-800 p-3 px-5 rounded-xl relative cursor-pointer overflow-hidden transform transition duration-500 hover:scale-110">
                     <span className="text-md px-1">Get started</span>
                   </button>
-                  <p className="text-center">No credit card needed</p>
+                  <p className="text-center light-para">
+                    No credit card needed
+                  </p>
                 </div>
               </div>
 
@@ -304,7 +311,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A cool feature
                     </span>
                   </li>
@@ -318,7 +325,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A basic feature
                     </span>
                   </li>
@@ -332,7 +339,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A top feature with limitation
                     </span>
                   </li>
@@ -346,7 +353,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       An incredible feature so useful
                     </span>
                   </li>
@@ -360,7 +367,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       A top feature
                     </span>
                   </li>
@@ -374,7 +381,7 @@ const Pricing = () => {
                     >
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                     </svg>
-                    <span className="text-base font-normal leading-tight text-gray-600  ms-3">
+                    <span className="light-para text-base font-normal leading-tight text-gray-600  ms-3">
                       You need this feature
                     </span>
                   </li>

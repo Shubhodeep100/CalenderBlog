@@ -84,8 +84,6 @@
 /* Cards CSS */
 .section-cards {
   --space: 10px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .section-card {

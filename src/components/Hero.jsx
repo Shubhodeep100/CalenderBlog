@@ -6,14 +6,14 @@ import p4 from "../assets/person4.png";
 import p5 from "../assets/person5.png";
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen mt-10 hero-alignment gap-2">
-      <span className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 flex justify-center items-center border-none">
-        <p className="text-black font-semibold text-md">
+    <div className="flex flex-col justify-center items-center h-screen mt-16  gap-2">
+      <span className="bg-slate-100 border border-gray rounded-l-full hero-alignment rounded-r-full p-2 flex justify-center items-center border-none">
+        <p className="text-black font-semibold text-md light-ballon">
           An other way to manage time
         </p>
       </span>
       <div className="max-w-2xl text-center space-y-10">
-        <div className="text-7xl text-zinc-800 font-extrabold phone leading-tight">
+        <div className="text-7xl text-zinc-800 font-extrabold phone leading-tight ">
           Your new favorite calender 🗓️ app
         </div>
         <div className="flex justify-center">
@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row my-5 justify-center">
+        <div className="flex flex-row my-5 justify-center flex-wrap">
           <div className="flex items-center -space-x-2 cursor-pointer">
             <img
               className="w-9 h-9 rounded-full  border-2 border-white"

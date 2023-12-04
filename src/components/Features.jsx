@@ -20,26 +20,26 @@ const Features = () => {
               Our main features 🦸🏼
             </p>
           </div>
-          <div>
-            <p className="text-5xl font-extrabold text-zinc-800">
+          <div className="">
+            <p className="text-5xl font-extrabold text-zinc-800 heading-alignment">
               Discover your new superpowers
             </p>
           </div>
         </div>
 
         {/* Sceduling & calender block starts */}
-        <div className="flex flex-row gap-3 md:order-first">
+        <div className="flex flex-row flex-wrap">
           {/* 1 text block */}
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 fixed-contphone ">
             <div className="flex flex-col gap-16 max-w-lg">
-              <div className="flex flex-col justify-start items-start  gap-4">
-                <div className="bg-orange-100 border border-gray rounded-l-full rounded-r-full py-1.5 px-6 flex justify-center items-center border-none">
-                  <p className="text-black font-semibold text-md">
+              <div className="flex flex-col justify-start items-start centering  gap-4">
+                <div className="bg-orange-100 rounded-l-full  rounded-r-full py-1.5 px-6 flex justify-center items-center border-none">
+                  <p className="text-black font-semibold light-ballon ">
                     Seamless Sceduling
                   </p>
                 </div>
-                <div className="max-w-2xl antialiased">
-                  <p className="text-4xl font-bold text-zinc-800">
+                <div className="max-w-2xl">
+                  <p className="text-4xl font-bold text-zinc-800 semi-heading">
                     Focus on what matters most for you
                   </p>
                 </div>
@@ -67,7 +67,7 @@ const Features = () => {
               </div>
               <div className="flex mb-3">
                 <div className="flex-start max-w-xs  bg-zinc-800 space-y-2 rounded-t-2xl rounded-br-2xl rounded-bl p-4 mb-3">
-                  <p className="text-white text-sm font-semibold">
+                  <p className="text-white text-sm font-semibold featurecloud">
                     I tested many calender app. This is the best of all! It
                     saves me hours of time.
                   </p>
@@ -80,7 +80,7 @@ const Features = () => {
           </div>
 
           {/* 2  image calender*/}
-          <div className="w-6/12">
+          <div className="w-6/12 fixed-contphone">
             <img
               src="https://framerusercontent.com/images/KsZ6wO13QZewZKHzx7JNgFn88.png?scale-down-to=1024"
               alt="Calender"
@@ -88,16 +88,16 @@ const Features = () => {
           </div>
         </div>
       </section>
-      <div className="space-y-40">
-        {/* 2nd feture */}
-        <Feature2 />
-        {/* 3rd Feature */}
-        <Feature3 />
-        {/* 4th Feature */}
-        <Feature4 />
-        {/* 5th Feature */}
-        <Feature5 />
-      </div>
+      {/* <div className="space-y-40"> */}
+      {/* 2nd feture */}
+      <Feature2 />
+      {/* 3rd Feature */}
+      <Feature3 />
+      {/* 4th Feature */}
+      <Feature4 />
+      {/* 5th Feature */}
+      <Feature5 />
+      {/* </div> */}
     </div>
   );
 };

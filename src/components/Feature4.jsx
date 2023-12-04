@@ -2,36 +2,36 @@ import React from 'react'
 import guy from "../assets/guy.jpg"
 const Feature4 = () => {
   return (
-    <section className="flex flex-col mt-10 heroAllignment gap-24">
+    <section className="flex flex-col mt-10 gap-24">
       {/* Discover block */}
 
       {/* Sceduling & calender block starts */}
-      <div className="flex flex-row gap-3">
+      <div className="flex flex-row flex-wrap fixed-contphone">
         {/* 2  image calender*/}
-        <div className="w-6/12">
+        <div className="w-6/12 fixed-contphone">
           <img
             src="https://framerusercontent.com/images/ow5cq9Ercs5KlWFqhMUsdUkCl8.png?scale-down-to=1024"
             alt="Calender"
           />
         </div>
         {/* 1 text block */}
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 space-order1">
           <div className="flex flex-col gap-16 max-w-lg">
             <div className="flex flex-col justify-start items-start  gap-4">
               <div className="bg-red-100 border border-gray rounded-l-full rounded-r-full py-1.5 px-6 flex justify-center items-center border-none">
-                <p className="text-black font-semibold text-md">
+                <p className="text-black font-semibold text-md light-ballon">
                   Smart Reminders & Task
                 </p>
               </div>
-              <div className="max-w-2xl antialiased">
-                <p className="text-4xl font-bold text-zinc-800">
+              <div className="max-w-2xl">
+                <p className="text-4xl font-bold text-zinc-800 semi-heading">
                   Never miss an important deadline or event again
                 </p>
               </div>
             </div>
             <div className="max-w-xl space-y-4">
               <div>
-                <p className="text-slate-500 text-lg font-medium">
+                <p className="text-slate-500 text-lg font-medium light-para">
                   Never miss an important deadline again with our AI-driven
                   notifications. Our app intelligently analyzes your schedule to
                   prioritize what's most important, keeping you on track and
@@ -45,7 +45,7 @@ const Feature4 = () => {
           <div className="flex flex-row w-full justify-end">
             <div className="flex mb-3">
               <div className="flex-start max-w-xs  bg-zinc-800 space-y-1 rounded-t-2xl rounded-bl-2xl rounded-br p-4 mb-3">
-                <p className="text-white text-sm font-semibold">
+                <p className="text-white text-sm font-semibold featurecloud">
                   I love how user-friendly this app is! It's so easy to add
                   events and set reminders!
                 </p>

@@ -5,12 +5,12 @@ const Scrollreview = () => {
     <div className="flex flex-col space-y-20" Name="Testimonial">
       <div className="flex flex-col justify-start items-center gap-4">
         <div className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 px-4 flex justify-center items-center border-none">
-          <p className="text-black font-semibold text-md">
+          <p className="text-black font-semibold text-md light-ballon">
             They already love our products 😍
           </p>
         </div>
         <div>
-          <p className="text-5xl font-extrabold text-zinc-800">
+          <p className="text-5xl font-extrabold text-zinc-800 heading-alignment">
             See what our users say about us
           </p>
         </div>

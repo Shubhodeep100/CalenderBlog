@@ -7,23 +7,68 @@
 
 @media screen and (max-width: 768px) {
   .hero-alignment {
-    margin-top: 5rem;
+    margin-top: 8rem;
     right: 0;
     left: 0;
+  }
+  .semi-heading {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading-alignment {
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .space-order1 {
+    order: 1;
+  }
+  
+ 
+  .centering {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .centeringbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .light-ballon {
+    font-size: 15px;
+  }
+  .light-para {
+    font-size: 18px;
   }
   .user {
     font-size: 10px;
   }
 
-  .phone {
-    font-size: 2rem;
+  .featurecloud{
+    font-size: 15px;
   }
-  .fixed-containerp {
-    max-width: 1000px;
+  .phone {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .fixed-contphone {
+    max-width: 1400px;
     margin: auto;
     width: 80%;
-    padding-left: 15px;
-    padding-right: 15px;
+  }
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

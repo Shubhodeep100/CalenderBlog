@@ -6,18 +6,18 @@ const Feature5 = () => {
       {/* Feture text block */}
       <div className="flex flex-col justify-start items-center gap-4 ">
         <div className="bg-slate-100 border border-gray rounded-l-full rounded-r-full p-2 px-4 flex justify-center items-center border-none">
-          <p className="text-black font-semibold text-md">
+          <p className="text-black font-semibold text-md light-ballon">
             And so much more... 💼
           </p>
         </div>
         <div className="text-center max-w-3xl">
-          <p className="text-5xl font-extrabold text-zinc-800">
+          <p className="text-5xl font-extrabold text-zinc-800 heading-alignment">
             Our features to make your life easier
           </p>
         </div>
       </div>
 
-      <div className="section-cards">
+      <div className="section-cards flex flex-wrap fixed-contphone">
         {/*  1st card  */}
         <div className="section-card space-y-4">
           <div className="center-image-container">
