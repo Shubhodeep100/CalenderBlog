@@ -38,7 +38,7 @@ const Navbar = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <p className="text-sm font-medium text-black font-signature ml-1">
+          <p className="text-base font-semibold text-black font-signature ml-1">
             Milton
           </p>
         </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-semibold text-gray-500 hover:text-black hover:underline"
+              className="px-4 cursor-pointer text-sm font-bold text-gray-500 hover:text-black hover:underline"
             >
               <Link to={link} smooth duration={600}>
                 {link}
