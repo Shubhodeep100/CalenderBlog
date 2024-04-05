@@ -12,7 +12,7 @@
 
 ## Demo
 
-[Demo](https://to-doapplication.pages.dev/)
+[Demo](https://calender-blog.vercel.app/)
 
 
 ## Screenshots
@@ -33,5 +33,6 @@
 
 - Fully Responsive UI of Calender Blog.
 - Modern Data UI.
+- Has different sections to show the reviews of the current customers.
 
 
